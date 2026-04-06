@@ -1,17 +1,18 @@
 ````markdown
 # voxlink_phone_parser
 
-Парсер телефонных номеров для сервиса  
-:contentReference[oaicite:0]{index=0}  
+Парсер телефонных номеров для сервиса
 https://num.voxlink.ru/
 
 Программа читает номера из CSV-файла, отправляет HTTP-запросы к API и сохраняет результат в файл `output.csv`.
 
+````
 # Сборка
 
 ```bash
 go build .
-````
+```
+
 
 Будет создан исполняемый файл.
 
@@ -22,8 +23,6 @@ go build .
 ```bash
 go run app.go
 ```
-
----
 
 # Как использовать
 
